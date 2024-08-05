@@ -12,7 +12,9 @@ I have developed custom agents designed to evaluate resumes against given job de
 
 The below picuture expalins the working of each agent.
 
-##Image
+### Resume Evaluator Architecture Flow:
+
+![Example Image](https://github.com/sasidharreddy25/resume_evaluator/blob/main/Images/resume_evaluation_architecture.jpeg)
 
 - Job Description Agents: Identify the core requirements in the job description. I have assumed that experience, skills, education level, and domain or industry knowledge are the primary criteria.
 - Recruiter Agent: Takes recruiter persona. Based on the job requirements provided by the JD Agent, the system retrieves information from the candidate agent.
