@@ -10,7 +10,7 @@ Just open the test.ipynb file and run each cell one by one. You must keep all th
 
 I have developed custom agents designed to evaluate resumes against given job descriptions. These agents include a job description agent, recruiter agent, candidate agent, evaluation agent, fitment agent, and email agent.
 
-The below picuture expalins the working of each agent.
+The below picuture expalins the solution.
 
 ### Resume Evaluator Architecture Flow:
 
