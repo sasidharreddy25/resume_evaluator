@@ -26,13 +26,13 @@ The below picuture expalins the working of each agent.
 
 ### Why not using agents from libraries
 
-Agents from libraries like LangGraph and AutoGen lack flexibility.\n
+Agents from libraries like LangGraph and AutoGen lack flexibility. 
 While I could use LangGraph agents for email automation, they internally rely on function calling, which can sometimes lead to confusion and the use of different tools, overcomplicating a simple problem.
 
 ### Latency Vs Accuracy
 
-In this case, I considered both latency and accuracy and developed a balanced solution that optimizes for both.
-For increased accuracy, we can further reduce the problem statement and address it at a more granular level by utilizing additional agents and OpenAI calls.
+In this case, I considered both latency and accuracy and developed a balanced solution that optimizes for both. 
+For increased accuracy, we can further reduce the problem statement and address it at a more granular level by utilizing additional agents and OpenAI calls. 
 To reduce latency, we can employ multithreading and asynchronous functionalities to concurrently call multiple agents. Additionally, reducing the number of agents can help decrease latency.
 
 ### Improvements
