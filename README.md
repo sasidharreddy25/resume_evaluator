@@ -6,6 +6,8 @@ Stepup your openai keys in config.py
 
 Just open the test.ipynb file and run each cell one by one. You must keep all the resumes in "resuemes" folder and job description in a pdf file outside resumes folder.
 
+Note: I have tested and optimized the solution specifically for Azure OpenAI. If you encounter any issues with standard OpenAI, please let me know.
+
 ### Approach
 
 I have developed custom agents designed to evaluate resumes against given job descriptions. These agents include a job description agent, recruiter agent, candidate agent, evaluation agent, fitment agent, and email agent.
