@@ -26,7 +26,7 @@ The below picuture expalins the working of each agent.
 
 ### Why not using agents from libraries
 
-Agents from libraries like LangGraph and AutoGen lack flexibility.
+Agents from libraries like LangGraph and AutoGen lack flexibility.\n
 While I could use LangGraph agents for email automation, they internally rely on function calling, which can sometimes lead to confusion and the use of different tools, overcomplicating a simple problem.
 
 ### Latency Vs Accuracy
